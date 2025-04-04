@@ -11,7 +11,7 @@
 
 ### **Как использовать?**  
 ```В приложении
-MAC XX:XX:XX:XX:XX:XX  # Впишите свой MAC-адресс
+MAC XX:XX:XX:XX:XX:XX
 IP x.x.x.x
 
 
