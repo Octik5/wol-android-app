@@ -10,8 +10,9 @@
 ✔ Питание сетевой карты в выключенном состоянии  
 
 ### **Как использовать?**  
-```bash
-wakeonlan XX:XX:XX:XX:XX:XX  # Пример команды в Linux
+```В приложении
+MAC XX:XX:XX:XX:XX:XX  # Впишите свой MAC-адресс
+IP x.x.x.x
 
 
 #### **2. С мини-инструкцией**  
@@ -21,7 +22,5 @@ wakeonlan XX:XX:XX:XX:XX:XX  # Пример команды в Linux
 1. **Включите WoL в BIOS/UEFI** (обычно в разделе Power Management).  
 2. **Настройте сетевую карту** (в Windows: `Диспетчер устройств → Сетевой адаптер → Свойства → Дополнительно → Wake-on-LAN → Включено`).  
 3. **Отправьте Magic Packet** через:  
-   - Приложения (WoL Utility, TeamViewer)  
-   - Команду (Linux: `wakeonlan`, Windows: `PowerShell-скрипт`)  
+   - Приложения  
 
-![WoL в BIOS](https://example.com/wol-bios-settings.jpg)  
